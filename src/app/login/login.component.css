@@ -17,73 +17,51 @@
     border: 1px solid #b3b3b3;
     border-radius: 3px;
 }
-/* .aw-login-box .mod-body {
-    padding: 50px 60px;
+.midcontol {
+    /* background: #66b7ff; */
+    width: 610px;
+    margin-left: 50px;
+    margin-top: 50px
 }
-.aw-login-box .mod-body .content {
-    width: 300px;
-    margin-right: 60px;
+.logtop>h2 {
+    color:#666666;
+    font-size:15px;
+    margin: 5px 0 0 13px;
 }
-.pull-left {
-    float: left!important;
+.btn-normal {
+    min-width: 76px;
+    min-width: 56px\0;
+    height: 34px;
+    padding: 0 10px;
+    line-height: 34px;
+    font-size: 14px;
 }
-.aw-login-box .logo {
+.log {
     width: 200px!important;
     height: 64px!important;
-    background: url(logo/Ghost-Transparent-for-LIGHT-BG.png) no-repeat!important;
+    background: url(../../img/chinatelecom.jpg) no-repeat!important;
     background-size: contain!important;
 }
-h2 {
-    font-size: 100%;
-    line-height: 1.7;
+.mod-footer {
+    height: 70px;
+    line-height: 70px;
+    background-color: #f5f5f5;
+    padding: 0 60px;
+    color: #66b7ff;
 }
-.aw-login-box .mod-body .content h2 {
-    margin: 13px 0 40px;
-    color: #666666;
+.mod-footer>span {
+    color:#666666;
 }
-form {
-    margin: 0;
+.mod-footer>a {
+    color: #66b7ff;
 }
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font: inherit;
-    color: inherit;
+.tianchong{
+    height:170px;
 }
-ul, ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.checkbox > a {
+    /* font-size: 12px; */
+    line-height: 40px;
+    color:#666666;
+    margin-left:15px;
+    cursor: pointer;
 }
-ul, menu, dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-}
-.aw-login-box .mod-body .content ul li:first-child {
-    margin-top: 0;
-}
-.aw-login-box .mod-body .form-control {
-    height: 40px;
-    line-height: 28px\0;
-    padding-left: 15px !important;
-    box-shadow: none;
-    border-color: #e6e6e6;
-}
-.aw-login-box .mod-body .form-control {
-    height: 40px;
-    line-height: 28px\0;
-    padding-left: 15px !important;
-    box-shadow: none;
-    border-color: #e6e6e6;
-}
-.aw-login-box .mod-body .content ul li {
-    margin-top: 20px;
-    line-height: 30px;
-}
-.alert-danger, .alert-error {
-    color: #B94A48;
-} */

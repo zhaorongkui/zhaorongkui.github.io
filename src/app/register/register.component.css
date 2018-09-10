@@ -1,0 +1,49 @@
+.bac {
+    background: url(../../img/big.jpg) no-repeat;
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+    padding-top:80px;
+}
+.tianchongtop {
+   height:35px;
+}
+.containercss {
+    background: #ffffff;
+    width: 48%;
+    padding: 0 14% 30px 14%;
+    margin-bottom: -16px;
+}
+.top>h2{
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+    margin-top: 10px;
+}
+.more-information-btn {
+    position: absolute;
+    left: 105px;
+    top: -15px;
+    width: 90px;
+    background-color: #fff;
+    color: #66b7ff;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-myprimary {
+   background:#66b7ff;
+   color:#fff
+}
+.formbottom {
+    margin-bottom:60px;
+}
+.mod-foor {
+    padding: 35px 0 40px 0;;
+    border-top: 1px solid #e6e6e6;
+    background: #ffff;
+    width:48%;
+    text-align: center
+}
+.tianchong{
+    height:50px;
+}
