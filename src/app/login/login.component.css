@@ -65,3 +65,20 @@
     margin-left:15px;
     cursor: pointer;
 }
+.abc {
+    position: absolute;
+    top: 0;
+    right: -145px;
+    width: 130px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: left;
+}
+.aw-reg-err {
+    line-height: 28px;
+    background: #FFEAEA;
+    border: 1px solid #E5C3C4;
+    color: #CC0000;
+}
