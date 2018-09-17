@@ -65,7 +65,7 @@
     margin-left:15px;
     cursor: pointer;
 }
-.abc {
+.warn-message {
     position: absolute;
     top: 0;
     right: -145px;

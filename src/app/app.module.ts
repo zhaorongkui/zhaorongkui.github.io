@@ -8,6 +8,10 @@ import { LoginComponent } from "./login/login.component";
 import { RegisterComponent } from "./register/register.component";
 import { HomeComponent } from "./home/home.component";
 import { AppRoutingModule } from ".//app-routing.module";
+//引入HttpClientModule模块
+import { HttpClientModule } from "@angular/common/http";
+import { HttpClient } from "selenium-webdriver/http";
+import { httpInterceptorProviders } from './http-interceptors/index'
 
 @NgModule({
   declarations: [
@@ -21,9 +25,12 @@ import { AppRoutingModule } from ".//app-routing.module";
     AppRoutingModule,
     FormsModule,
     CustomFormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule  
   ],
-  providers: [],
+  providers: [
+    httpInterceptorProviders
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
